@@ -27,15 +27,16 @@ header
 
 nav
 {
+    font-family: 'Arial Unicode MS', sans-serif;
     float: right;
-    padding: 2em 1em 0 0;
+    padding: 10px 10px 0 0;
 }
 
 #menu-icon
 {
     display: hidden;
-    width: 1em;
-    height: 1em;
+    width: 2px;
+    height: 2px;
 }
 a:hover#menu-icon
 {
@@ -44,5 +45,26 @@ a:hover#menu-icon
 ul
 {
     list-style-type: none;
+}
+nav ul li
+{
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+nav ul li a
+{
+    color: #3c3c3c;
+    text-decoration: none;
 
+}
+
+nav ul li a:hover
+{
+    color: #5f8dbf ;
+}
+.current
+{
+    color: #684669;
 }
