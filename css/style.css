@@ -1,0 +1,48 @@
+body
+{
+    background: #fcffa5;
+    color: #67727A;
+}
+
+header
+{
+    background-color: #ebeea4;
+    width: 100%;
+    height: 3em;
+}
+
+#header-inner
+{
+    max-width: 1200px;
+    margin-left: 0 auto;
+}
+
+#logo
+{
+    margin: 5em;
+    float: left;
+    width: 20em;
+    height: 30em;
+}
+
+nav
+{
+    float: right;
+    padding: 2em 1em 0 0;
+}
+
+#menu-icon
+{
+    display: hidden;
+    width: 1em;
+    height: 1em;
+}
+a:hover#menu-icon
+{
+    border-radius: 1em 1em 0 0;
+}
+ul
+{
+    list-style-type: none;
+
+}
