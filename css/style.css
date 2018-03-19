@@ -8,7 +8,7 @@ header
 {
     background-color: #ebeea4;
     width: 100%;
-    height: 3em;
+    height: 4em;
 }
 
 #header-inner
@@ -17,19 +17,46 @@ header
     margin-left: 0 auto;
 }
 
-#logo
-{
-    margin: 5em;
-    float: left;
-    width: 20em;
-    height: 30em;
-}
-
 nav
 {
     font-family: 'Arial Unicode MS', sans-serif;
     float: right;
-    padding: 10px 10px 0 0;
+    padding: 3px 0px 3px 0px;
+}
+
+#banner-inner
+{
+    margin: 2em;
+    float: left;
+    width: 15em;
+    height: 20em;
+}
+
+.welcome
+{
+    display: inline-flex;
+}
+
+h2
+{
+    font-size: 35px;
+    padding-top: 2%;
+    font-weight: 100;
+    text-align: center;
+}
+
+.left-banner
+{
+    margin: 2em;
+    float: left;
+}
+
+.inner-wrapper
+{
+    margin: 2em;
+    float: left;
+    width: 5em;
+    height: 5em;
 }
 
 #menu-icon
@@ -68,8 +95,9 @@ nav ul li a:hover
     color: #684669;
 }
 
-.banner
+.foo
 {
-    width: 100%;
-    background-color: #b8bf63;
-    }
+    display: inline;
+    text-align: center;
+    margin: 80%;
+}
