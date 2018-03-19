@@ -57,7 +57,6 @@ nav ul li a
 {
     color: #3c3c3c;
     text-decoration: none;
-
 }
 
 nav ul li a:hover
@@ -68,3 +67,9 @@ nav ul li a:hover
 {
     color: #684669;
 }
+
+.banner
+{
+    width: 100%;
+    background-color: #b8bf63;
+    }
