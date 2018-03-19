@@ -24,40 +24,6 @@ nav
     padding: 3px 0px 3px 0px;
 }
 
-#banner-inner
-{
-    margin: 2em;
-    float: left;
-    width: 15em;
-    height: 20em;
-}
-
-.welcome
-{
-    display: inline-flex;
-}
-
-h2
-{
-    font-size: 35px;
-    padding-top: 2%;
-    font-weight: 100;
-    text-align: center;
-}
-
-.left-banner
-{
-    margin: 2em;
-    float: left;
-}
-
-.inner-wrapper
-{
-    margin: 2em;
-    float: left;
-    width: 5em;
-    height: 5em;
-}
 
 #menu-icon
 {
@@ -95,6 +61,46 @@ nav ul li a:hover
     color: #684669;
 }
 
+#banner-inner
+{
+    margin: 2em;
+    float: left;
+    width: 15em;
+    height: 20em;
+}
+
+.welcome
+{
+    display: inline-flex;
+}
+
+.left-banner
+{
+    margin: 2em;
+    float: left;
+}
+
+.inner-wrapper
+{
+    margin: 2em;
+    float: left;
+    width: 5em;
+    height: 5em;
+}
+
+h2
+{
+    font-size: 35px;
+    padding-top: 2%;
+    font-weight: 100;
+    text-align: center;
+    line-height: 155%;
+}
+
+p{
+    font-size: 120%;
+    line-height: 150%;
+}
 .foo
 {
     display: inline;
