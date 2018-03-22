@@ -1,3 +1,6 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
 body
 {
     background: #fcffa5;
@@ -100,7 +103,18 @@ h2
 p{
     font-size: 120%;
     line-height: 150%;
+    padding: 3%;
+    text-align: justify;
 }
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
 .foo
 {
     display: inline;
