@@ -66,10 +66,8 @@ nav ul li a:hover
 
 #banner-inner
 {
-    margin: 2em;
+    margin: 3em;
     float: left;
-    width: 15em;
-    height: 20em;
 }
 
 .welcome
