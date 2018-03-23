@@ -130,3 +130,21 @@ nav ul li a:hover
     text-align: center;
     margin: 80%;
 }
+
+@media screen and (max-width: :768px) {
+    p {
+        font-size: 130%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    header {
+        height: 80px;
+        position: relative;
+    }
+    #menu-icon{
+        display: inline-block;
+    }
+}
