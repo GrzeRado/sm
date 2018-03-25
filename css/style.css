@@ -19,6 +19,17 @@ p{
     text-indent: 2%;
 }
 
+#welcome-text{
+    display: inline-flex;
+    margin: 10px;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+
+}
+
 h2{
     font-size: 160%;
     padding-top: 2%;
@@ -42,8 +53,8 @@ img
 {
     display: block;
     max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 30em;
+    width: 30em;
 }
 
 header{
@@ -105,11 +116,6 @@ nav ul li a:hover
     float: left;
 }
 
-.welcome
-{
-    display: inline-flex;
-}
-
 .left-banner
 {
     margin: 2em;
@@ -144,7 +150,30 @@ nav ul li a:hover
         height: 80px;
         position: relative;
     }
+    #logo{
+        margin 15px 0 20px -25px;
+        background: url(spotkania malzenskie/img/nav-icon.png) no-repeat center;
+    }
     #menu-icon{
         display: inline-block;
+    }
+    nav:hover ul{
+        display: block;
+    }
+    nav ul, nav:active ul{
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid;
+        right: 20px;
+        width: 50%;
+        border-radius: 3px 0 3px 3px;
+        opacity: 0.95;
+    }
+    nav li{
+        text-align: center;
+        width: 100%;
     }
 }
